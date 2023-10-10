@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(250, 251, 255);
+  padding: 5px;
+}
+
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 5px;
+  color: rgb(3, 9, 47);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.aside-header {
+  text-align: center;
+  padding: 10px;
+}
+.aside-search {
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 10px;
+  color: rgb(159, 165, 179);
+  height: 25px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li i.fa-solid,
+li i.fa-regular {
+  margin-right: 15px;
+}
+
+#projects {
+  border: 1px solid rgb(229, 235, 255);
+  background-color: rgb(229, 235, 255);
+  border-radius: 10px;
+}
+
+.aside-items-first {
+  margin-bottom: 100px;
+}
+
+.number {
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 1000px;
+  padding: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-items-status {
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 11px;
+}
+.name-icon {
+  padding: 5px;
+}
+.status {
+  color: rgb(151, 148, 148);
+  font-weight: bold;
+  font-size: 8px;
+}
+.content-container {
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 5px;
+  flex: 1;
+  padding: 15px;
+}
+
+.task {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+
+  font-size: 15px;
+}
+
+.task h4 {
+  font-weight: 10px;
+  border-bottom: 1px solid rgb(3, 9, 47);
+}
+
+.task-heading {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.task-name {
+  margin-top: 5px;
+  color: rgb(159, 165, 179);
+}
+.task-items {
+  display: flex;
+}
