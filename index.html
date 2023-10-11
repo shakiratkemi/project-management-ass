@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cookie&family=Dancing+Script&family=Laila&family=Outfit:wght@300;400;500&family=Oxygen&family=Oxygen+Mono&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&family=Red+Hat+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cookie&family=Dancing+Script&family=Josefin+Sans:wght@100;200;300;400&family=Laila&family=Outfit:wght@300;400;500&family=Oxygen&family=Oxygen+Mono&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&family=Red+Hat+Mono&display=swap"
       rel="stylesheet"
     />
     <script
@@ -46,50 +46,142 @@
             <li><i class="fa-regular fa-hard-drive"></i>Saved reports</li>
             <li><i class="fa-regular fa-user"></i>User reports</li>
           </ul>
-        </div>
 
-        <ul class="aside-items-second">
-          <li><i class="fa-solid fa-circle-info"></i>Support</li>
-          <li><i class="fa-solid fa-wand-sparkles"></i>What's new?</li>
-          <li><i class="fa-solid fa-gear"></i>Setting</li>
-        </ul>
+          <ul class="aside-items-second">
+            <li><i class="fa-solid fa-circle-info"></i>Support</li>
+            <li><i class="fa-solid fa-wand-sparkles"></i>What's new?</li>
+            <li><i class="fa-solid fa-gear"></i>Setting</li>
+          </ul>
+        </div>
 
         <div class="aside-items-status">
           <div class="name-icon">
             <img src="./images/avatar2.png" alt="Jeremy img" />
-            <span class="name">Jeremy Zucker</span>
           </div>
           <div class="online">
-            <i
-              class="fa-solid fa-circle"
-              style="font-size: 5px; color: green"
-            ></i>
-            <span class="status">Online</span>
+            <span class="name">Jeremy Zucker</span>
+            <div>
+              <i
+                class="fa-solid fa-circle"
+                style="font-size: 5px; color: green"
+              ></i>
+              <div class="status">Online</div>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="content-container">
         <div class="task">
-          <h4>Our Projects</h4>
+          <h4 class="underlined">Our Projects</h4>
           <i class="fa-solid fa-angle-right"></i>
           <p>Cases for a Programmer</p>
         </div>
 
         <div class="task-items">
-          <div class="task-heading">
-            <h1>Cases for a Programmer</h1>
-            <i class="fa-solid fa-pen"></i>
-          </div>
+          <div>
+            <div class="task-heading">
+              <h1>Cases for a Programmer</h1>
+              <i class="fa-solid fa-pen"></i>
+            </div>
 
-          <div class="task-name">
-            <p>Wayne Enterprises - Acme HRMS Onboarding</p>
+            <div class="task-name">
+              <p>Wayne Enterprises - Acme HRMS Onboarding</p>
+            </div>
           </div>
-
           <div class="task-profiles">
             <img src="./images/avatar5.png" alt="male img" />
             <img src="./images/avatar1.png" alt="male img" />
             <img src="./images/avat.png" alt="male img" />
+          </div>
+        </div>
+
+        <div class="tasks">
+          <ul class="tasks-menu">
+            <li><i class="fa-solid fa-gauge-simple-high"></i> Project Plan</li>
+            <li class="underlined">
+              <i class="fa-solid fa-bars"></i>
+              Task List
+            </li>
+            <li><i class="fa-solid fa-chart-simple"></i> Status Plan</li>
+          </ul>
+
+          <div class="tasks-card">
+            <p><i class="fa-solid fa-plus"></i> Add a card</p>
+          </div>
+        </div>
+
+        <div class="progress">
+          <div class="not-now">
+            <h4 class="not-now-text">Not Now</h4>
+            <div class="not-now-count">(0)</div>
+          </div>
+
+          <div class="progress-chart">
+            <div class="triage">
+              <h4>
+                Triage
+                <span>(2)</span>
+              </h4>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+            <div class="bp">
+              <div class="first-bp">
+                <div class="bp-title">[1BP] Billing Issue</div>
+                <div class="bp-content">
+                  <p>by Jeremy Zucker on Aug 18</p>
+                  <div class="bp-icons">
+                    <img src="./images/avatar5.png" alt="male img" />
+                    <img src="./images/avatar1.png" alt="male img" />
+                    <img src="./images/avat.png" alt="male img" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="second-bp">
+                <div class="bp-title">[1BP] Tagline image is cut off</div>
+                <div class="bp-content">
+                  <p>by Jeremy Zucker on Aug 18</p>
+                  <div class="bp-icons">
+                    <img src="./images/avatar5.png" alt="male img" />
+                    <img src="./images/avatar1.png" alt="male img" />
+                    <img src="./images/avat.png" alt="male img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="done">
+              <h4 class="done-text">Done</h4>
+              <div class="not-now-count">(2)</div>
+            </div>
+
+            <div class="progress-first">
+              <div class="figuring">
+                <h4>
+                  Figuring it out
+                  <span>(3)</span>
+                </h4>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+
+              <div class="in-progress">
+                <h4>
+                  Figuring it out
+                  <span>(3)</span>
+                </h4>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+
+              <div class="waiting">
+                <h4>
+                  Figuring it out
+                  <span>(3)</span>
+                </h4>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
